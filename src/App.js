@@ -51,7 +51,7 @@ function App() {
 
   // Filtering resources
   axios
-    .get("https://jsonplaceholder.typicode.com/posts/?userID=1")
+    .get("https://jsonplaceholder.typicode.com/posts/?userId=1")
     .then((response) => console.log("Filtered Resource:", response))
     .catch((error) => console.log("Filtered Resource:", error));
 
